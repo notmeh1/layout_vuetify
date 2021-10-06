@@ -6,7 +6,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col v-for="(character, $index) in characters" :key="$index" cols="4">
+      <v-col v-for="(character, $index) in characters" :key="$index" xl="4">
         <v-card class="mx-auto" max-width="250px" tile>
           <v-img :src="character.imagen" height="200px" />
           <v-card-title class="justify-center">
